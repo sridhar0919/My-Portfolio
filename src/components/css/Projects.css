@@ -1,0 +1,208 @@
+.total-content {
+  padding: 50px 150px;
+  font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+    'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+    sans-serif;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size: 32px;
+  color: rgb(204, 214, 246);
+}
+
+.title::after {
+  content: '';
+  display: inline-block;
+  height: 1px;
+  width: 400px;
+  background-color: rgb(48, 60, 85);
+  position: relative;
+  top: -10px;
+  margin-left: 20px;
+}
+
+/* Projects */
+.first-project {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.title-name {
+  font-size: 28px;
+  padding: 0;
+  color: rgb(204, 214, 246);
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+}
+
+.title-name:hover {
+  color: rgb(100, 255, 218);
+}
+
+.sub-heading {
+  font-size: 13px;
+  color: rgb(100, 255, 218);
+  font-weight: bold;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+    'Lucida Console', monospace;
+}
+
+.content-project {
+  padding: 25px;
+  background-color: rgb(23, 42, 69);
+  color: rgb(136, 146, 176);
+  font-size: 18px;
+  border-radius: 3px;
+  width: 400px;
+  line-height: 1.5;
+}
+
+.tools-project {
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(100, 255, 218);
+  width: 450px;
+  padding: 0px;
+  list-style: none;
+  margin: 0px;
+}
+
+.tools-project > li {
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.links-project {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 470px;
+}
+
+.links-project > a {
+  margin-right: 30px;
+  color: rgb(204, 214, 246);
+}
+
+.links-project > a:hover {
+  color: rgb(100, 255, 218);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.screenshots > img {
+  width: 500px;
+  height: 300px;
+  opacity: 0.5;
+}
+
+.screenshots > img:hover {
+  opacity: 1;
+}
+
+.screen-div {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.project11 {
+  margin-top: 125px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .total-content {
+    padding: 50px 20px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 100px;
+  }
+
+  .screen-div {
+    display: none;
+  }
+
+  .title {
+    font-size: 26px;
+    color: rgb(204, 214, 246);
+  }
+
+  .title::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 10px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    top: -8px;
+    margin-left: 20px;
+  }
+
+  .title-name {
+    font-size: 20px;
+    padding: 0;
+    color: rgb(204, 214, 246);
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+  }
+
+  .sub-heading {
+    font-size: 12px;
+    color: rgb(100, 255, 218);
+    font-weight: bold;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+      'Lucida Console', monospace;
+  }
+
+  .content-project {
+    padding: 25px;
+    background-color: rgb(23, 42, 69);
+    color: rgb(136, 146, 176);
+    font-size: 18px;
+    border-radius: 3px;
+    width: 250px;
+    line-height: 1.5;
+  }
+
+  .tools-project {
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(100, 255, 218);
+    width: 300px;
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    font-size: 14px;
+  }
+
+  .tools-project > li {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .links-project {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+}
+
+@media (min-width: 651px) and (max-width: 767px) {
+}

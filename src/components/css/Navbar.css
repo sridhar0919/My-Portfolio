@@ -1,0 +1,444 @@
+.home-content {
+  margin-bottom: 100px;
+}
+
+/* Navbar */
+
+.logo-top {
+  padding: 5px 15px;
+  background-color: rgb(10, 25, 47);
+  border: 2px solid rgb(100, 255, 218);
+  color: rgb(100, 255, 218);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.logo-top:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+.toggle-button {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+    'Lucida Console', 'Monaco', monospace;
+  font-size: 18px;
+  background-color: rgb(10, 25, 47);
+  color: rgb(204, 214, 246);
+}
+
+.nav-heading {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.nav-heading > li {
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.nav-heading > li:hover {
+  color: rgb(100, 255, 218);
+}
+
+.resume {
+  margin-right: 20px;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 1px solid rgb(100, 255, 218);
+  border-radius: 5px;
+  font-weight: bold;
+  color: rgb(100, 255, 218);
+}
+
+.resume:hover {
+  background-color: rgba(100, 255, 218, 0.07);
+}
+
+/* Intro */
+.intro-content {
+  margin-top: 100px;
+  padding: 50px 150px;
+  color: rgb(204, 214, 246);
+  font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+    'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+}
+
+.intro-content > h3 {
+  color: rgb(100, 255, 218);
+}
+
+.intro-name1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(204, 214, 246);
+  margin: 0;
+  padding: 0;
+}
+
+.intro-name {
+  font-size: 70px;
+  font-weight: bold;
+  color: rgb(136, 146, 176);
+  margin: 0;
+  padding: 0;
+}
+
+.intro-about-one {
+  font-size: 20px;
+  margin-top: 40px;
+  color: rgb(136, 146, 176);
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.intro-about {
+  font-size: 20px;
+  color: rgb(136, 146, 176);
+  padding: 0;
+  margin: 0;
+}
+
+.intro-about-two {
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(136, 146, 176);
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  /* Hamburger menu */
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+      'Lucida Console', 'Monaco', monospace;
+    font-size: 18px;
+    background-color: rgb(10, 25, 47);
+    color: rgb(204, 214, 246);
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .nav-heading {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+
+  .nav-heading > li {
+    padding: 20px 30px;
+    cursor: pointer;
+  }
+
+  .last-li {
+    margin-left: 10px;
+  }
+
+  .logo-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+
+  .logo-top {
+    padding: 5px 15px;
+    background-color: rgb(10, 25, 47);
+    border: 2px solid rgb(100, 255, 218);
+    color: rgb(100, 255, 218);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+  }
+
+  .ham-act {
+    margin-top: 320px;
+  }
+
+  /* .ham-inact {
+    margin-top: 300px;
+  } */
+
+  /* Intro Content */
+
+  .intro-content {
+    /* margin-top: 300px; */
+    width: 200px;
+    padding: 50px 20px;
+    color: rgb(204, 214, 246);
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+  }
+
+  .intro-name1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(204, 214, 246);
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-content > h3 {
+    color: rgb(100, 255, 218);
+    font-size: 16px;
+  }
+
+  .intro-name {
+    font-size: 35px;
+    font-weight: bold;
+    width: 300px;
+    color: rgb(136, 146, 176);
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-about-one {
+    font-size: 18px;
+    margin-top: 40px;
+    width: 320px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .intro-about {
+    font-size: 18px;
+    width: 320px;
+    color: rgb(136, 146, 176);
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-about-two {
+    font-size: 18px;
+    width: 320px;
+    margin-top: 20px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .nav-heading {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+
+  .toggle-button {
+    margin-left: 70px;
+  }
+
+  /* Intro Content */
+
+  .intro-content {
+    /* margin-top: 300px; */
+    width: 200px;
+    padding: 50px 80px;
+    color: rgb(204, 214, 246);
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+  .nav-heading {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 140px;
+    margin-top: 30px;
+  }
+
+  .toggle-button {
+    margin-left: 160px;
+  }
+
+  /* Intro Content */
+
+  .intro-content {
+    margin-top: 300px;
+    width: 200px;
+    padding: 50px 100px;
+    color: rgb(204, 214, 246);
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+  }
+
+  .intro-name1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(204, 214, 246);
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-content > h3 {
+    color: rgb(100, 255, 218);
+    font-size: 18px;
+  }
+
+  .intro-name {
+    font-size: 40px;
+    font-weight: bold;
+    width: 400px;
+    color: rgb(136, 146, 176);
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-about-one {
+    font-size: 20px;
+    margin-top: 40px;
+    width: 400px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .intro-about {
+    font-size: 20px;
+    width: 400px;
+    color: rgb(136, 146, 176);
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-about-two {
+    font-size: 20px;
+    width: 400px;
+    margin-top: 20px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 767px) {
+  .nav-heading {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 30px;
+  }
+
+  .toggle-button {
+    margin-left: 260px;
+  }
+
+  /* Intro Content */
+
+  .intro-content {
+    margin-top: 300px;
+    width: 200px;
+    padding: 50px 80px;
+    color: rgb(204, 214, 246);
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+  }
+
+  .intro-name1 {
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(204, 214, 246);
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-content > h3 {
+    color: rgb(100, 255, 218);
+    font-size: 18px;
+    width: 500px;
+  }
+
+  .intro-name {
+    font-size: 40px;
+    font-weight: bold;
+    width: 500px;
+    color: rgb(136, 146, 176);
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-about-one {
+    font-size: 20px;
+    margin-top: 40px;
+    width: 500px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .intro-about {
+    font-size: 20px;
+    width: 500px;
+    color: rgb(136, 146, 176);
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-about-two {
+    font-size: 20px;
+    width: 500px;
+    margin-top: 20px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 0;
+    padding: 0;
+  }
+}

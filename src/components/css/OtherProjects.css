@@ -1,0 +1,136 @@
+.total-content1 {
+  padding: 50px 150px;
+  font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+    'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+    sans-serif;
+  margin-bottom: 80px;
+}
+
+.project-lists1 {
+  display: grid;
+  grid-gap: 15px;
+  padding: 10px;
+  grid-template-columns: 350px 350px 350px;
+}
+
+.section-name1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.section-name1 > h4 {
+  color: rgb(204, 214, 246);
+}
+
+.main-content1 {
+  padding: 25px;
+  background-color: rgb(23, 42, 69);
+  width: 300px;
+  color: white;
+  border-radius: 5px;
+}
+
+.project-head1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-head1 > div:nth-child(1) {
+  margin-right: 160px;
+  color: rgb(100, 255, 218);
+}
+
+.icon-link1 {
+  margin-right: 30px;
+}
+
+.iconn:hover {
+  color: rgb(100, 255, 218);
+}
+
+.project-desc1 {
+  margin-top: 40px;
+  width: 300px;
+}
+
+.project-desc1 > h4 {
+  font-size: 22px;
+  color: rgb(204, 214, 246);
+}
+
+.project-desc1 > p {
+  font-size: 17px;
+  color: rgb(168, 178, 209);
+}
+
+.tools-used1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  color: rgb(100, 255, 218);
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+
+.tools-used1 > li {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .total-content1 {
+    padding: 50px 20px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .project-lists1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-name1 {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .main-content1 {
+    padding: 25px;
+    margin-left: -10px;
+    background-color: rgb(23, 42, 69);
+    width: 250px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .project-desc1 {
+    margin-top: 40px;
+    width: 240px;
+  }
+
+  .project-head1 > div:nth-child(1) {
+    margin-right: 120px;
+    color: rgb(100, 255, 218);
+  }
+
+  .project-desc1 > h4 {
+    font-size: 20px;
+    color: rgb(204, 214, 246);
+  }
+
+  .project-desc1 > p {
+    font-size: 17px;
+    color: rgb(168, 178, 209);
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+}
+
+@media (min-width: 651px) and (max-width: 767px) {
+}
