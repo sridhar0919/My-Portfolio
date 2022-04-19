@@ -57,8 +57,8 @@ export default function Projects() {
           </a>
           <p className="content-project">
             Built Bike Rental application with React JS and Express JS. Designed
-            it with login and password reset page using Nodemailer. JWT is used
-            for creating tokens and razorpay gateway for payments.
+            it with a login and password reset page using Nodemailer. JWT is
+            used for creating tokens and razorpay gateway for payments.
           </p>
           <ul className="tools-project">
             <li>React JS</li>
@@ -136,9 +136,9 @@ export default function Projects() {
             <p className="title-name">Blogger App</p>
           </a>
           <p className="content-project">
-            Built Blogger application with React JS and Express JS. Designed it
-            with Google OAuth for authentication. File-base64 is used to upload
-            blog images.
+            Built a Blogger application with React JS and Express JS. Designed
+            it with a Google OAuth for authentication. File-base64 is used to
+            upload blog images.
           </p>
           <ul className="tools-project">
             <li>React JS</li>

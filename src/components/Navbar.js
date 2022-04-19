@@ -67,7 +67,7 @@ export default function Navbar() {
             </li>
             <li className="last-li">
               <a
-                href="https://drive.google.com/file/d/1w0TL5lzXQLOVizWRYJbcXyAxo1yF85Q4/view?usp=sharing"
+                href="https://drive.google.com/file/d/1UHxz-emzzwi41i-t83sS4iMvU-NjoOMz/view"
                 target="_blank"
                 className="resume"
               >
@@ -101,7 +101,7 @@ export default function Navbar() {
             <li
               onClick={() => {
                 window.scrollTo({
-                  top: 4000,
+                  top: 4500,
                   behavior: 'smooth',
                 });
               }}
@@ -110,9 +110,10 @@ export default function Navbar() {
             </li>
             <li className="last-li">
               <a
-                href="https://drive.google.com/file/d/1w0TL5lzXQLOVizWRYJbcXyAxo1yF85Q4/view?usp=sharing"
+                href="https://drive.google.com/file/d/1kK6lTqMtUavdMfudzzcLLxCTaB_Fh3Yw/view?usp=sharing"
                 target="_blank"
                 className="resume"
+                rel="noreferrer"
               >
                 Resume
               </a>
