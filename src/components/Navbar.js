@@ -33,49 +33,77 @@ export default function Navbar() {
             </a>
           </div>
         </div>
-        <div className={isActive ? 'navbar-links active' : 'navbar-links'}>
-          <ul className="nav-heading">
+        <div className={isActive ? 'navbar-links1 active' : 'navbar-links1'}>
+          <ul className="nav-heading1">
             <li
               onClick={() => {
-                isActive
-                  ? window.scrollTo({
-                      top: 600,
-                      behavior: 'smooth',
-                    })
-                  : window.scrollTo({
-                      top: 600,
-                      behavior: 'smooth',
-                    });
+                window.scrollTo({
+                  top: 600,
+                  behavior: 'smooth',
+                });
               }}
             >
               About
             </li>
             <li
               onClick={() => {
-                isActive
-                  ? window.scrollTo({
-                      top: 1700,
-                      behavior: 'smooth',
-                    })
-                  : window.scrollTo({
-                      top: 1200,
-                      behavior: 'smooth',
-                    });
+                window.scrollTo({
+                  top: 1700,
+                  behavior: 'smooth',
+                });
               }}
             >
               Projects
             </li>
             <li
               onClick={() => {
-                isActive
-                  ? window.scrollTo({
-                      top: 5700,
-                      behavior: 'smooth',
-                    })
-                  : window.scrollTo({
-                      top: 4000,
-                      behavior: 'smooth',
-                    });
+                window.scrollTo({
+                  top: 5700,
+                  behavior: 'smooth',
+                });
+              }}
+            >
+              Contact
+            </li>
+            <li className="last-li">
+              <a
+                href="https://drive.google.com/file/d/1w0TL5lzXQLOVizWRYJbcXyAxo1yF85Q4/view?usp=sharing"
+                target="_blank"
+                className="resume"
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="navbar-links">
+          <ul className="nav-heading">
+            <li
+              onClick={() => {
+                window.scrollTo({
+                  top: 600,
+                  behavior: 'smooth',
+                });
+              }}
+            >
+              About
+            </li>
+            <li
+              onClick={() => {
+                window.scrollTo({
+                  top: 1300,
+                  behavior: 'smooth',
+                });
+              }}
+            >
+              Projects
+            </li>
+            <li
+              onClick={() => {
+                window.scrollTo({
+                  top: 4000,
+                  behavior: 'smooth',
+                });
               }}
             >
               Contact

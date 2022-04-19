@@ -1,8 +1,9 @@
 import React from 'react';
 import './css/Projects.css';
 import projectImg1 from '../images/movie-ticket.png';
-import projectImg2 from '../images/food-delivery.png';
-import projectImg3 from '../images/url-shortener.png';
+import projectImg2 from '../images/bikerental.png';
+import projectImg3 from '../images/food-delivery.png';
+import projectImg4 from '../images/blogger-app.png';
 
 export default function Projects() {
   return (
@@ -51,6 +52,45 @@ export default function Projects() {
       <div className="first-project project11">
         <div>
           <p className="sub-heading">Featured Project</p>
+          <a href="https://bikes-rental.netlify.app/" target="_blank">
+            <p className="title-name">Bike Rental App</p>
+          </a>
+          <p className="content-project">
+            Built Bike Rental application with React JS and Express JS. Designed
+            it with login and password reset page using Nodemailer. JWT is used
+            for creating tokens and razorpay gateway for payments.
+          </p>
+          <ul className="tools-project">
+            <li>React JS</li>
+            <li>Express JS</li>
+            <li>Nodemailer</li>
+            <li>MongoDB</li>
+          </ul>
+          <div className="links-project">
+            <a
+              href="https://github.com/sridhar0919/bike-rental-website"
+              target="_blank"
+            >
+              <i class="fa-brands fa-2x fa-github"></i>
+            </a>
+            <a href="https://bikes-rental.netlify.app/" target="_blank">
+              <i class="fa-solid fa-2x fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+        </div>
+        <div className="screen-div">
+          <a
+            className="screenshots"
+            href="https://bikes-rental.netlify.app/"
+            target="_blank"
+          >
+            <img src={projectImg2}></img>
+          </a>
+        </div>
+      </div>
+      <div className="first-project project11">
+        <div>
+          <p className="sub-heading">Featured Project</p>
           <a href="https://yummyy.netlify.app/" target="_blank">
             <p className="title-name">Food Delivery</p>
           </a>
@@ -63,7 +103,7 @@ export default function Projects() {
           <ul className="tools-project">
             <li>React JS</li>
             <li>Express JS</li>
-            <li>Bootstrap</li>
+            <li>Razorpay</li>
             <li>MongoDB</li>
           </ul>
           <div className="links-project">
@@ -84,35 +124,36 @@ export default function Projects() {
             href="https://yummyy.netlify.app/"
             target="_blank"
           >
-            <img src={projectImg2}></img>
+            <img src={projectImg3}></img>
           </a>
         </div>
       </div>
+
       <div className="first-project project11">
         <div>
           <p className="sub-heading">Featured Project</p>
-          <a href="https://urlshortener11.netlify.app/" target="_blank">
-            <p className="title-name">URL Shortener</p>
+          <a href="https://blogger-app1.netlify.app/" target="_blank">
+            <p className="title-name">Blogger App</p>
           </a>
           <p className="content-project">
-            Built URL Shortener application with React JS and Express JS.
-            Designed it with login and password reset page using Nodemailer.
-            BcryptJS was used to shorten the URL.
+            Built Blogger application with React JS and Express JS. Designed it
+            with Google OAuth for authentication. File-base64 is used to upload
+            blog images.
           </p>
           <ul className="tools-project">
             <li>React JS</li>
             <li>Express JS</li>
-            <li>Nodemailer</li>
+            <li>Google OAuth</li>
             <li>MongoDB</li>
           </ul>
           <div className="links-project">
             <a
-              href="https://github.com/sridhar0919/url-shortener/tree/main/src"
+              href="https://github.com/sridhar0919/Blogger-App"
               target="_blank"
             >
               <i class="fa-brands fa-2x fa-github"></i>
             </a>
-            <a href="https://urlshortener11.netlify.app/" target="_blank">
+            <a href="https://blogger-app1.netlify.app/" target="_blank">
               <i class="fa-solid fa-2x fa-arrow-up-right-from-square"></i>
             </a>
           </div>
@@ -120,10 +161,10 @@ export default function Projects() {
         <div className="screen-div">
           <a
             className="screenshots"
-            href="https://urlshortener11.netlify.app/"
+            href="https://blogger-app1.netlify.app/"
             target="_blank"
           >
-            <img src={projectImg3}></img>
+            <img src={projectImg4}></img>
           </a>
         </div>
       </div>

@@ -77,6 +77,55 @@
   font-size: 14px;
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .total-content1 {
+    padding: 50px 20px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .project-lists1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-name1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .main-content1 {
+    padding: 25px;
+    margin-left: -10px;
+    background-color: rgb(23, 42, 69);
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .project-desc1 {
+    margin-top: 40px;
+    width: 200px;
+  }
+
+  .project-head1 > div:nth-child(1) {
+    margin-right: 60px;
+    color: rgb(100, 255, 218);
+  }
+
+  .project-desc1 > h4 {
+    font-size: 19px;
+    color: rgb(204, 214, 246);
+  }
+
+  .project-desc1 > p {
+    font-size: 16px;
+    color: rgb(168, 178, 209);
+  }
+}
+
 @media (min-width: 375px) and (max-width: 767px) {
   .total-content1 {
     padding: 50px 20px;
@@ -127,10 +176,88 @@
 }
 
 @media (min-width: 450px) and (max-width: 550px) {
+  .total-content1 {
+    padding: 50px 25px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .section-name1 {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .main-content1 {
+    padding: 25px;
+    margin-left: 35px;
+    background-color: rgb(23, 42, 69);
+    width: 250px;
+    color: white;
+    border-radius: 5px;
+  }
 }
 
 @media (min-width: 551px) and (max-width: 650px) {
+  .total-content1 {
+    padding: 50px 35px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .section-name1 {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .main-content1 {
+    padding: 25px;
+    margin-left: 50px;
+    background-color: rgb(23, 42, 69);
+    width: 300px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .project-desc1 {
+    margin-top: 40px;
+    width: 280px;
+  }
 }
 
 @media (min-width: 651px) and (max-width: 767px) {
+  .total-content1 {
+    padding: 50px 35px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .section-name1 {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .main-content1 {
+    padding: 25px;
+    margin-left: 70px;
+    background-color: rgb(23, 42, 69);
+    width: 350px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .project-desc1 {
+    margin-top: 40px;
+    width: 320px;
+  }
+
+  .project-head1 > div:nth-child(1) {
+    margin-right: 180px;
+    color: rgb(100, 255, 218);
+  }
 }

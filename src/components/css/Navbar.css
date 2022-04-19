@@ -75,6 +75,11 @@ nav {
   background-color: rgba(100, 255, 218, 0.07);
 }
 
+/* nav links shorter pixel */
+.navbar-links1 {
+  display: none;
+}
+
 /* Intro */
 .intro-content {
   margin-top: 100px;
@@ -127,15 +132,32 @@ nav {
   padding: 0;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 374px) {
   /* Hamburger menu */
   .toggle-button {
     display: flex;
+    margin-left: -50px;
   }
 
-  .navbar-links {
+  .navbar-links1 {
     display: none;
     width: 100%;
+  }
+
+  .nav-heading1 {
+    list-style-type: none;
+  }
+
+  .nav-heading1 > li:nth-child(1),
+  .nav-heading1 > li:nth-child(2),
+  .nav-heading1 > li:nth-child(3) {
+    padding: 20px 0px;
+    margin-left: 85px;
+    cursor: pointer;
+  }
+
+  .nav-heading1 > li:hover {
+    color: rgb(100, 255, 218);
   }
 
   nav {
@@ -153,18 +175,162 @@ nav {
     color: rgb(204, 214, 246);
   }
 
-  .navbar-links.active {
+  .navbar-links {
+    display: none;
+  }
+
+  .logo-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+
+  .logo-top {
+    padding: 5px 15px;
+    background-color: rgb(10, 25, 47);
+    border: 2px solid rgb(100, 255, 218);
+    color: rgb(100, 255, 218);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .navbar-links1.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-heading1 > li:nth-child(1),
+  .nav-heading1 > li:nth-child(2),
+  .nav-heading1 > li:nth-child(3) {
+    padding: 20px 0px;
+    margin-left: 85px;
+    cursor: pointer;
+  }
+
+  .last-li {
+    cursor: pointer;
+    padding: 20px 0px;
+    margin-left: 70px;
+  }
+
+  .ham-act {
+    margin-top: 320px;
+  }
+
+  /* Intro Content */
+
+  .intro-content {
+    padding: 50px 20px;
+    color: rgb(204, 214, 246);
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+  }
+
+  .intro-name1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(204, 214, 246);
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-content > h3 {
+    color: rgb(100, 255, 218);
+    font-size: 14px;
+  }
+
+  .intro-name {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(136, 146, 176);
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro-about-one {
+    font-size: 16px;
+    margin-top: 40px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .intro-about {
+    font-size: 16px;
+    color: rgb(136, 146, 176);
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro-about-two {
+    font-size: 16px;
+    margin-top: 20px;
+    color: rgb(136, 146, 176);
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  /* Hamburger menu */
+  .toggle-button {
     display: flex;
   }
 
-  .nav-heading {
-    display: flex;
+  .navbar-links1 {
+    display: none;
+    width: 100%;
+  }
+
+  .nav-heading1 {
     list-style-type: none;
+  }
+
+  .nav-heading1 > li:nth-child(1),
+  .nav-heading1 > li:nth-child(2),
+  .nav-heading1 > li:nth-child(3) {
+    padding: 20px 0px;
+    margin-left: 85px;
+    cursor: pointer;
+  }
+
+  .nav-heading1 > li:hover {
+    color: rgb(100, 255, 218);
+  }
+
+  nav {
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    margin-left: 50px;
-    margin-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono',
+      'Lucida Console', 'Monaco', monospace;
+    font-size: 18px;
+    background-color: rgb(10, 25, 47);
+    color: rgb(204, 214, 246);
+  }
+
+  .navbar-links1.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .nav-heading1 {
+    display: flex;
+    flex-direction: column;
   }
 
   .nav-heading > li {
@@ -173,7 +339,9 @@ nav {
   }
 
   .last-li {
-    margin-left: 10px;
+    cursor: pointer;
+    padding: 20px 0px;
+    margin-left: 70px;
   }
 
   .logo-content {
@@ -201,14 +369,9 @@ nav {
     margin-top: 320px;
   }
 
-  /* .ham-inact {
-    margin-top: 300px;
-  } */
-
   /* Intro Content */
 
   .intro-content {
-    /* margin-top: 300px; */
     width: 200px;
     padding: 50px 20px;
     color: rgb(204, 214, 246);
@@ -284,7 +447,7 @@ nav {
 
   .intro-content {
     /* margin-top: 300px; */
-    width: 200px;
+    /* width: 200px; */
     padding: 50px 80px;
     color: rgb(204, 214, 246);
     font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
@@ -307,12 +470,26 @@ nav {
     margin-left: 160px;
   }
 
+  .nav-heading1 > li:nth-child(1),
+  .nav-heading1 > li:nth-child(2),
+  .nav-heading1 > li:nth-child(3) {
+    padding: 20px 0px;
+    margin-left: 200px;
+    cursor: pointer;
+  }
+
+  .last-li {
+    cursor: pointer;
+    padding: 20px 0px;
+    margin-left: 180px;
+  }
+
   /* Intro Content */
 
   .intro-content {
     margin-top: 300px;
     width: 200px;
-    padding: 50px 100px;
+    padding: 50px 60px;
     color: rgb(204, 214, 246);
     font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
       'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
@@ -364,6 +541,14 @@ nav {
     color: rgb(136, 146, 176);
     margin-bottom: 0;
     padding: 0;
+  }
+
+  .ham-act {
+    margin-top: 320px;
+  }
+
+  .ham-inact {
+    margin-top: 100px;
   }
 }
 
@@ -382,12 +567,26 @@ nav {
     margin-left: 260px;
   }
 
+  .nav-heading1 > li:nth-child(1),
+  .nav-heading1 > li:nth-child(2),
+  .nav-heading1 > li:nth-child(3) {
+    padding: 20px 0px;
+    margin-left: 250px;
+    cursor: pointer;
+  }
+
+  .last-li {
+    cursor: pointer;
+    padding: 20px 0px;
+    margin-left: 230px;
+  }
+
   /* Intro Content */
 
   .intro-content {
     margin-top: 300px;
     width: 200px;
-    padding: 50px 80px;
+    padding: 50px 70px;
     color: rgb(204, 214, 246);
     font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
       'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
@@ -440,5 +639,13 @@ nav {
     color: rgb(136, 146, 176);
     margin-bottom: 0;
     padding: 0;
+  }
+
+  .ham-act {
+    margin-top: 320px;
+  }
+
+  .ham-inact {
+    margin-top: 100px;
   }
 }

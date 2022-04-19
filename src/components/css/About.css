@@ -1,4 +1,4 @@
-.total-content {
+.total-content-about {
   padding: 50px 150px;
   font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
     'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
@@ -65,8 +65,65 @@
   color: rgb(100, 255, 218);
 }
 
+@media (min-width: 320px) and (max-width: 374px) {
+  .total-content-about {
+    padding: 50px 20px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .title111 {
+    font-size: 24px;
+    color: rgb(204, 214, 246);
+  }
+
+  .title111::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 80px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    top: -8px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-content > p {
+    line-height: 1.3;
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(136, 146, 176);
+  }
+
+  .about-content1 {
+    line-height: 1.3;
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .skills-skill {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    font-size: 16px;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(100, 255, 218);
+  }
+}
+
 @media (min-width: 375px) and (max-width: 767px) {
-  .total-content {
+  .total-content-about {
     padding: 50px 20px;
     font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
       'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
@@ -125,10 +182,136 @@
 }
 
 @media (min-width: 450px) and (max-width: 550px) {
+  .total-content-about {
+    padding: 50px 20px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .title111 {
+    font-size: 26px;
+    color: rgb(204, 214, 246);
+  }
+
+  .title111::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 180px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    top: -8px;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-content > p {
+    width: 350px;
+    line-height: 1.3;
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(136, 146, 176);
+  }
+
+  .about-content1 {
+    width: 350px;
+    line-height: 1.3;
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .skills-skill {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    font-size: 16px;
+    border: 1px solid rgb(100, 255, 218);
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(100, 255, 218);
+  }
 }
 
 @media (min-width: 551px) and (max-width: 650px) {
+  .title111 {
+    font-size: 28px;
+    color: rgb(204, 214, 246);
+  }
+
+  .title111::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 200px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    top: -8px;
+  }
+  .about-content > p {
+    width: 400px;
+    line-height: 1.3;
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(136, 146, 176);
+  }
+
+  .about-content1 {
+    width: 400px;
+    line-height: 1.3;
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+  }
 }
 
 @media (min-width: 651px) and (max-width: 767px) {
+  .total-content-about {
+    padding: 50px 50px;
+    font-family: 'Calibre', 'San Francisco', 'SF Pro Text', system-ui,
+      'BlinkMacSystemFont', Roboto, 'Helvetica Neue', 'Segoe UI', Arial,
+      sans-serif;
+    margin-bottom: 80px;
+  }
+
+  .title111 {
+    font-size: 28px;
+    color: rgb(204, 214, 246);
+  }
+
+  .title111::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 220px;
+    background-color: rgb(48, 60, 85);
+    position: relative;
+    top: -8px;
+  }
+  .about-content > p {
+    width: 500px;
+    line-height: 1.3;
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(136, 146, 176);
+  }
+
+  .about-content1 {
+    width: 500px;
+    line-height: 1.3;
+    font-family: Calibre, 'San Francisco', 'SF Pro Text', system-ui,
+      'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+  }
 }

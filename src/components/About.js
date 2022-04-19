@@ -3,7 +3,7 @@ import './css/About.css';
 
 export default function About() {
   return (
-    <div className="total-content">
+    <div className="total-content-about">
       <h3 className="title111">About Me</h3>
       <div class="main-content">
         <div className="about-content">
