@@ -67,7 +67,7 @@ export default function Navbar() {
             </li>
             <li className="last-li">
               <a
-                href="https://drive.google.com/file/d/1UHxz-emzzwi41i-t83sS4iMvU-NjoOMz/view"
+                href="https://drive.google.com/file/d/1psnDLMfdgnMSA_fbm7FC5MmUWl2xaZgk/view"
                 target="_blank"
                 className="resume"
               >
@@ -110,7 +110,7 @@ export default function Navbar() {
             </li>
             <li className="last-li">
               <a
-                href="https://drive.google.com/file/d/1kK6lTqMtUavdMfudzzcLLxCTaB_Fh3Yw/view?usp=sharing"
+                href="https://drive.google.com/file/d/1psnDLMfdgnMSA_fbm7FC5MmUWl2xaZgk/view"
                 target="_blank"
                 className="resume"
                 rel="noreferrer"
@@ -130,7 +130,7 @@ export default function Navbar() {
         <p className="intro-name1">Sridharan Thiagarajan.</p>
         <p className="intro-name">I love exploring new things!</p>
         <p className="intro-about-one">
-          I'm an aspiring developer currently working as a System Analyst
+          I'm an aspiring developer currently working as a Tech Lead
         </p>
         <p className="intro-about">
           at Cognizant, Chennai. Primarily interested in Web Development.

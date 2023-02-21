@@ -41,7 +41,7 @@ export default function Contact() {
             </a>
           </li>
         </ul>
-        <p className="footer-copy">&#169; Sridharan Thiagarajan 2022</p>
+        <p className="footer-copy">&#169; Sridharan Thiagarajan 2023</p>
       </div>
     </div>
   );
